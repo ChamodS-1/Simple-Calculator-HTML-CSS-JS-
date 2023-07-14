@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: fit-content;
+    margin: 2rem auto;
+}
+
+.mainContent{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4,2rem);
+    gap: 0.5rem 1.5rem; 
+}
+
+.mainContent li input{
+    width: 3rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    border: none;
+   
+}
+
+.output{
+    width: 13.5rem;
+    padding: 0.8rem 0.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#number{
+    background-color: black;
+    color: aliceblue;
+}
+
+#number:hover{
+    background-color: rgb(192, 192, 192);
+    color: rgb(0, 0, 0);
+}
+
+#symbol{
+    background-color: rgb(24, 238, 113);
+    color: aliceblue;
+}
+
+#symbol:hover{
+    background-color: rgb(180, 180, 180);
+    color: rgb(0, 0, 0);
+}
+
+#off{
+    background-color: rgb(238, 24, 117);
+    color: aliceblue;
+}
+
+#off:hover{
+    background-color: rgb(180, 180, 180);
+    color: rgb(0, 0, 0);
+}
+
+#equal{
+    background-color: rgb(167, 24, 238);
+    color: aliceblue;
+}
+
+#equal:hover{
+    background-color: rgb(180, 180, 180);
+    color: rgb(0, 0, 0);
+}
+
+button{
+    margin-top: 1rem;
+    margin-left: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.history li{
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
